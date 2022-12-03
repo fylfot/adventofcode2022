@@ -1,0 +1,7 @@
+go 1.19
+
+use (
+  ./day2/a
+  ./day2/b
+  ./shared
+)

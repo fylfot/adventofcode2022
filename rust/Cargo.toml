@@ -8,9 +8,7 @@ lto = "fat"
 
 [workspace]
 members = [
-  "rust/day1/a",
-  "rust/day1/b",
-  "rust/day2/a",
-  "rust/day2/b",
-  "rust/shared"
+  "day1/a",
+  "day1/b",
+  "shared"
 ]
