@@ -9,33 +9,7 @@ import (
 func main() {
 
 	rounds := LoadInput()
-
-	// A
-	// B
-	// C
-
-	// Y
-	// X
-	// Z
-
-	// A X - rock
-	// B Y - paper
-	// C Z - Scrissors
-
-	// Rock - 1
-	// Paper - 2
-	// Scrissors - 3
-
-	// Draw - 3
-	// Win - 6
-
 	scores := 0
-
-	// score_map := map[string]int{
-	// 	"A": 1,
-	// 	"B": 2,
-	// 	"C": 3,
-	// }
 
 	// NOTE: whitespaces needed here to prevent issues with
 	//  invalid UTF-8 length calc for printing for some emojis
