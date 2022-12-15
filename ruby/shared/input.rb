@@ -4,15 +4,27 @@ def read_input()
 end
 
 def print_red(msg)
-  puts "\x1b[37;41;1m#{msg}\x1b[0m"
+  puts red(msg)
 end
 
 def print_green(msg)
-  puts "\x1b[32;1m#{msg}\x1b[0m"
+  puts green(msg)
 end
 
 def print_yellow(msg)
-  puts "\x1b[33;1m#{msg}\x1b[0m"
+  puts yellow(msg)
+end
+
+def red(msg)
+  "\x1b[37;41;1m#{msg}\x1b[0m"
+end
+
+def green(msg)
+  "\x1b[32;1m#{msg}\x1b[0m"
+end
+
+def yellow(msg)
+  "\x1b[33;1m#{msg}\x1b[0m"
 end
 
 def test()
